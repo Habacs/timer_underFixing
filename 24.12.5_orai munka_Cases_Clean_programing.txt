@@ -1,0 +1,36 @@
+clean code és használata:
+=============================
+
+	- A változók nevei egyjelentésű és egyértelmű legyen pl.: let d; ==> let daySinceCreation
+	- Kommentek írása nem egyértelmű kódrészletekre. túl sok felesleges komment zavaro és akkor a kód nem clean
+	- a kódot felbontani programegységekre. A program fentről lefelé olvas
+	- A program kód átláthatósága érdekében érdemes enterekkel elálasztani a programegységeket
+	- A funkciók nevére igéket vagy olyan neveket adni ami az akciójára utal
+	- A felesleges kódrészleteket törölni
+	- Ne ismételj kódrészleteket
+	- Max 15-20 foros függvény az átltatóság érdekében
+
+=====================================================
+Snake Case VS Camel Case VS Pascal Case VS Kebab Case:
+=======================================================
+
+	- Casing in programming:
+		* Ha egy változó neve több szóbol áll, nem lehet a szavak között space
+	
+	-Snake Case: 
+		* "_"-el választja el a szavakat. 
+		* Minden Kisbetűvel kell hogy írva legyen
+		* Fájlok vagy adatbázis táblák elnevezésénél hasznos mert akkor a neve olvasható marad
+		* Minden nagybetűvel írva a "Screaming Snake"
+
+	-Kebab Case:
+		* Hasonlít a "Snake Case"-hez csak a szavakat egy "-"-el választja el
+		* Ez is az egyik legkönnyebben olvasható emberekszámára
+		* URL-eknél használják gyakran
+	
+	-Camel Case:
+		* Az első szó kisbetűvel kezdődik es az utána kovetkező szavak nagybetűvel kezdődnek, minden egybe van írva
+	
+	-Pascal Case:
+		* Hasonlít a "Camel Case"-hez csak az első szó is nagybetűvel kezdődik
+		
